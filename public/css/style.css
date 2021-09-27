@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+/*Header*/
+
+div .input {
+    background-color: white;
+    border: solid 1px black;
+    width: 40%;
+    
+}
+
+div .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    width: 10%;
+    
+}
+
+.logo {
+    width: 50%
+}
+
+
+.main-header-top-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+form .search-bar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+}
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+p.precios { 
+    font-size: 18px;
+}
+
+p.descuentos {
+    font-size: 16px;
+    color: green;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+
+
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+}
+
+.hamburguer-button {
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.main-navbar li .fa-credit-card {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+/* Main */
+
+.main {
+    width: 90%;
+    display: block;
+    padding: 10px;
+
+}
+
+section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div .fa-truck {
+    color: #39b54a;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+.main section article {
+    border: 15px;
+    margin: 10px 10px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.main section article img {
+    width: 100%;
+}
+
+div article .productos {
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: left;
+    
+}
+
+div i .precios .descuentos .descripciones {
+    text-align: left;
+}
+
+
+
+.descripciones {
+    font-size: 16px;
+    
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 10px;
+    
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+
+.fa-credit-card {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.fa-gift {
+    font-size: 2em;
+    margin-bottom: 10px;  
+    color: blue;
+}
+
+.fa-user-shield {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.copyright {
+    text-align: left;
+}
+
+
+.registro {
+    padding: 20px 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.login {
+    padding: 20px 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.error {
+    font-style: italic;
+    color: red;
+    content: "Verifica que el contenido sea correcto";
+}
+
+.error {
+    font-style: italic;
+    color: red;
+    content: "Debes elegir una opción";
+}
+
+.error-repassword {
+    font-style: italic;
+    color: red;
+    content: "Verifica que las contraseñas coincidan";
+}
+
+.controlDelFormulario {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.controlCategorias label{
+    margin-bottom: 15px;
+    font-style: italic;
+    display: block;
+    
+}
+
+.controlDelFormulario label {
+    margin-bottom: 15px;
+    font-style: italic;
+    display: block;
+
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+}
+
+.repassword {
+    width: 100%;
+    padding: 8px;
+    display: block;
+}
+
+
+.boton-formulario {
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+@media (min-width: 361px) {
+    
+    .productos { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content:  space-around
+    }
+
+    .productos article {
+        width: 45%;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburguer-button {
+        display: none;
+    }
+    
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+    }
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    
+    main section article img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch;
+        box-shadow: 0px 0px 10px;
+        color: 100, 100, 100 
+}
+
+    main section article .description{
+            display: block;
+        }
+}
+
+@media (min-width: 769px) {
+    .logo {
+        width: 250px;
+    }
+    .main-header-top-bar, .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar {
+        align-items: center;
+    }
+    .copy-header {
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400px;
+        margin: 0;
+    }
+    .main-navbar {
+        margin-top: 50px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px;
+        color: 100, 100, 100 
+    }
+}

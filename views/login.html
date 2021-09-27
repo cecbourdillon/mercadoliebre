@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Ingresar</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo">
+        </div>
+
+        <div class="form" action= "#" method = "GET">
+            <div class="input">Buscar productos, marcas y más <i class="fa fa-search"></i></div>
+        </div>
+            
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito 
+</h2>
+        </div>
+        <a href="#" class="hamburguer-button">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li> <a href="#"> Ofertas </a> </li>
+                <li> <a href="#"> Oficiales </a> </li>
+                <li> <a href="#"> Vender </a> </li>
+                <li> <a href="#"> Ayuda </a> </li>
+            </ul>
+            <ul class="right-navbar">
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i>
+                <li><a href="#"> Compra <i class="fas fa-shopping-cart">
+                </i> </a>
+            </ul>
+        </nav>
+    </header>
+    
+<!-- Formulario -->
+
+<form action="/login" method="POST" class="login"> 
+    
+    <div class="controlDelFormulario"> 
+        <label>Nombre de usuari@</label> 
+        <input type="text" name="usuario" class="control">
+        <span class="error"></span>
+    </div>
+
+    <div class="controlDelFormulario"> 
+        <label>Contraseña</label> 
+        <input type="password" class="control">
+        <span class="error-repassword"></span>
+    </div>
+
+    <button type="submit" class="boton-formulario">Enviar </button>
+
+</form>
+
+</body>
+</html>

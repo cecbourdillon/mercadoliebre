@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Registro</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo">
+        </div>
+
+        <div class="form" action= "#" method = "GET">
+            <div class="input">Buscar productos, marcas y más <i class="fa fa-search"></i></div>
+        </div>
+            
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito 
+</h2>
+        </div>
+        <a href="#" class="hamburguer-button">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li> <a href="#"> Ofertas </a> </li>
+                <li> <a href="#"> Oficiales </a> </li>
+                <li> <a href="#"> Vender </a> </li>
+                <li> <a href="#"> Ayuda </a> </li>
+            </ul>
+            <ul class="right-navbar">
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#"> Compra <i class="fas fa-shopping-cart"></i> </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<!-- Formulario -->
+
+<form action="/register" method="POST" class="registro"> 
+    <div class="controlDelFormulario"> 
+        <label>Nombre y Apellido</label> 
+        <input type="text" name="nombre" class="control"> 
+        <span class="error"></span>
+    </div>
+    
+    <div class="controlDelFormulario"> 
+        <label>Nombre de usuari@</label> 
+        <input type="text" name="usuario" class="control">
+        <span class="error"></span>
+    </div>
+
+    <div class="controlDelFormulario"> 
+        <label>Fecha de Nacimiento</label> 
+        <input type="date" name="fechaNacimiento" value= "1940-01-01" class="control">
+        <span class="error"></span>
+    </div>
+
+    <div class="controlDelFormulario"> 
+        <label>Domicilio</label> 
+        <input type="text" name="domicilio" class="control">
+        <span class="error"></span>
+    </div>
+
+    <div class="controlDelFormulario"> 
+        <label>Ciudad</label>
+        <select name="ciudad" class="control">
+            <option value="baires">Ciudad de Buenos Aires</option>
+            <option value="ros">Rosario</option>
+            <option value="mdz">Mendoza</option>
+            <option value="cba">Córdoba</option>
+        </select>
+        <span class="choose"></span>
+    </div>
+
+    <div class="controlDelFormulario"> 
+        <label>Tipo de uso</label>
+        <select name="categoria" class="control">
+            <option value="comprador">Comprador</option>
+            <option value="vendedor">Vendedor</option>
+        </select>
+        <span class="error"></span>
+    </div>
+
+    <div class="controlCategorias"> 
+        <label>Categorías de Interés</label>
+        <label> <input type="radio">Electro</label>
+        <label> <input type="radio">Moda</label>
+        <label> <input type="radio">Hogar</label>
+        <label> <input type="radio">Juguetería</label>
+        <label> <input type="radio">Vida Sana</label> 
+        <span class="choose"></span>       
+    </div>
+
+    <div class="controlDelFormulario">
+        <label>Foto de Usuario</label> 
+        <input type="file" name="imagenPerfil" accept=".jpg" class="control">
+        
+    </div>
+
+    <div class="controlDelFormulario"> 
+        <label>Contraseña</label> 
+        <input type="password" class="control">
+    </div>
+    
+    <div class="controlDelFormulario"> 
+        <label>Confirmar Contraseña</label> 
+        <input type="password" class="repassword">
+        <span class="error-repassword"></span>
+    </div>
+
+    
+    <button type="submit" class="boton-formulario">Enviar </button>
+    <button type="reset" class="boton-formulario">Borrar</button>
+    
+</form>
+
+</body>
+</html>
