@@ -4,11 +4,11 @@ const app = express ();
 
 app.use(express.static(path.resolve (__dirname, 'public')));
 
-app.listen (3030, () => {
+app.listen (process.env.PORT || 3000, () => {
     console.log('Servidor corriendo');
 })
 
-app.get ('/home', (req, res) => {
+app.get ('/', (req, res) => {
     res.sendFile (path.resolve (__dirname, './views/home.html')); 
 });
 
